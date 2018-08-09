@@ -1,5 +1,5 @@
 package FantasyAdventure.Behaviours;
 
 public interface ISpell {
-    public void cast();
+    public int cast();
 }
