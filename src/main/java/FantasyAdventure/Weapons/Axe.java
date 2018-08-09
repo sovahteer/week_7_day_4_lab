@@ -1,6 +1,9 @@
 package FantasyAdventure.Weapons;
 
-public class Axe {
+import FantasyAdventure.Behaviours.IWeapon;
+import FantasyAdventure.Enemies.Enemy;
+
+public class Axe implements IWeapon {
 
     private int damage;
 
@@ -8,7 +11,9 @@ public class Axe {
         this.damage = 10;
     }
 
-    public int attack(){
+    public void attack(Enemy enemy){}
+
+    public int getDamage(){
         return damage;
     }
 }

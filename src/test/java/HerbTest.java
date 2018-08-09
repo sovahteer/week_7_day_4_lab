@@ -15,6 +15,6 @@ public class HerbTest {
 
     @Test
     public void canHeal(){
-        assertEquals(4, herb.Heal());
+        assertEquals(4, herb.heal());
     }
 }

@@ -1,6 +1,8 @@
 package FantasyAdventure.Heals;
 
-public class Potion {
+import FantasyAdventure.Behaviours.IHeal;
+
+public class Potion implements IHeal {
 
     private int restore;
 

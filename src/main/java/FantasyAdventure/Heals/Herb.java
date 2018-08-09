@@ -1,6 +1,8 @@
 package FantasyAdventure.Heals;
 
-public class Herb {
+import FantasyAdventure.Behaviours.IHeal;
+
+public class Herb implements IHeal {
 
     private int restore;
 
@@ -8,7 +10,7 @@ public class Herb {
         this.restore = 4;
     }
 
-    public int Heal(){
+    public int heal(){
         return restore;
     }
 }

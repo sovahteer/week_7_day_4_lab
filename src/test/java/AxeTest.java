@@ -13,8 +13,8 @@ public class AxeTest {
         axe = new Axe();
     }
 
-    @Test
-    public void canAttack(){
-        assertEquals(10, axe.attack());
-    }
+//    @Test
+//    public void canAttack(){
+//        assertEquals(10, axe.attack());
+//    }
 }

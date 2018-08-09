@@ -1,6 +1,8 @@
 package FantasyAdventure.Spells;
 
-public class Firebolt {
+import FantasyAdventure.Behaviours.ISpell;
+
+public class Firebolt implements ISpell {
 
     private int damage;
 

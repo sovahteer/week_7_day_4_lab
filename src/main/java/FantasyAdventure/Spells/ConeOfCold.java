@@ -1,6 +1,8 @@
 package FantasyAdventure.Spells;
 
-public class ConeOfCold {
+import FantasyAdventure.Behaviours.ISpell;
+
+public class ConeOfCold implements ISpell {
 
     private int damage;
 

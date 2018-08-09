@@ -1,6 +1,7 @@
 package FantasyAdventure.Weapons;
 
 import FantasyAdventure.Behaviours.IWeapon;
+import FantasyAdventure.Enemies.Enemy;
 
 public class Club implements IWeapon {
 
@@ -10,7 +11,9 @@ public class Club implements IWeapon {
         this.damage = 6;
     }
 
-    public int attack(){
+    public void attack(Enemy enemy){}
+
+    public int getDamage(){
         return damage;
     }
 }
