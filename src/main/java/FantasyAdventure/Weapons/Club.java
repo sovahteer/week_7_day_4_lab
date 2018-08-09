@@ -6,8 +6,8 @@ public class Club implements IWeapon {
 
     private int damage;
 
-    public Club(int damage) {
-        this.damage = damage;
+    public Club() {
+        this.damage = 6;
     }
 
     public int attack(){
