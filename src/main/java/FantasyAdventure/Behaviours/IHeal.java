@@ -1,5 +1,5 @@
 package FantasyAdventure.Behaviours;
 
 public interface IHeal {
-    public void heal();
+    public int heal();
 }
